@@ -1,5 +1,5 @@
 import { ScrambleText } from "@/components/scramble"
-import { MapPin } from "lucide-react"
+import { MapPin, Mail } from "lucide-react"
 
 export function Header() {
   return (
@@ -14,6 +14,10 @@ export function Header() {
         <div className="flex items-center gap-2">
           <MapPin className="w-4 h-4" />
           Noida, India
+        </div>
+        <div className="flex items-center gap-2">
+          <Mail className="w-4 h-4" />
+          arcbit.kartik@proton.me
         </div>
       </div>
 

@@ -6,7 +6,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 export function ScrambleText({
   fromText,
   toText,
-  delay = 1000, //pause at Arcbit ;) before scrambling starts
+  delay = 1500, //pause at Arcbit ;) before scrambling starts
 }: {
   fromText: string
   toText: string
@@ -29,7 +29,7 @@ export function ScrambleText({
             .join("")
         )
 
-        iteration += 1/2 //speed control
+        iteration += 1/3 //speed control
         if (iteration >= toText.length) clearInterval(interval)
       }, 50)
     }, delay)

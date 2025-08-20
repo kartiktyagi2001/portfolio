@@ -37,13 +37,13 @@ export function Navbar() {
           [h] home
         </a>
         <a
-          href="#blogs"
+          href="#projects"
           className="hover:text-purple-500 transition-colors duration-200"
         >
           [p] projects
         </a>
         <a
-          href="#projects"
+          href="#blogs"
           className="hover:text-purple-500 transition-colors duration-200"
         >
           [b] blogs
