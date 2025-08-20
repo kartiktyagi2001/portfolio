@@ -15,14 +15,14 @@ export function Header() {
           <MapPin className="w-4 h-4" />
           Noida, India
         </div>
-        {/* <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2">
           <Mail className="w-4 h-4" />
           arcbit.kartik@proton.me
-        </div> */}
+        </div>
       </div>
 
       <p className="leading-relaxed animate-fade-in-up">
-        A developer with a love for <span className="text-purple-300">minimalism</span> and <span className="text-purple-300">clean code</span>. I build sleek, efficient web apps ; because great things happen when you do more with less. When I’m not taming bugs or learning something new, you’re likely to find me immersed in a compelling book, unwinding with critically acclaimed films, or pondering the perfect cup of coffee to fuel my next coding session. Currently, I’m open to exciting <span className="text-purple-300">collaborations</span> and <span className="text-purple-300">new opportunities</span> to contribute my skills and grow professionally.
+        A developer with a love for <span className="text-purple-300">minimalism</span> and <span className="text-purple-300">clean code</span>. I build sleek, efficient web apps; because great things happen when you do more with less. When I’m not taming bugs or learning something new, you’re likely to find me immersed in a compelling book or unwinding with critically acclaimed films. Currently, I’m open to exciting <span className="text-purple-300">collaborations</span> and <span className="text-purple-300">new opportunities</span> to contribute my skills and grow professionally.
       </p>
 
       <div>
