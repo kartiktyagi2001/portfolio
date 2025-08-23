@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+const letters = "AIKTabcdefghijklmonpqrstuvwxyz"
 
 export function ScrambleText({
   fromText,
@@ -14,7 +14,7 @@ export function ScrambleText({
 }) {
   const [displayText, setDisplayText] = useState(fromText)
 
-  //i did not write this logic
+  //i did not write this logic, chatgpt did :)
   useEffect(() => {
     const timeout = setTimeout(() => {
       let iteration = 0

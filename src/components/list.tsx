@@ -13,19 +13,22 @@ type ListProps = {
   title: string
   items: Item[]
   type?: string
+  about?: string
 }
 
 export function List({
   title,
   items,
   type,
+  about
 }: ListProps) {
   return (
     <section className="mb-16 animate-fade-in-up">
       <h2 className="text-2xl font-bold mb-6 flex items-center text-white">
         <span className="text-accent mr-2"><span className="text-purple-500">*</span></span> {title}
       </h2>
-      <div className="space-y-8">
+      <span className="text-gray-500">{about}</span>
+      <div className="space-y-8 mt-8">
         {items.map((item) => (
           <div key={item.title} className="group p-1 rounded-md">
             <Link href={item.href} target="_blank">

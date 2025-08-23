@@ -16,6 +16,7 @@ export function Navbar() {
         case "h": targetId = "home"; break
         case "b": targetId = "blogs"; break
         case "p": targetId = "projects"; break
+        case "i": targetId = "ideas"; break
       }
 
       if (targetId) {
@@ -47,6 +48,12 @@ export function Navbar() {
           className="hover:text-purple-500 transition-colors duration-200"
         >
           [b] blogs
+        </a>
+        <a
+          href="#ideas"
+          className="hover:text-purple-500 transition-colors duration-200"
+        >
+          [i] ideas
         </a>
       </div>
     </nav>
