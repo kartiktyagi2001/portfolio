@@ -6,6 +6,7 @@ const links = [
   { title: "github", href: "https://github.com/kartiktyagi2001" },
   { title: "x.com", href: "https://x.com/" },
   { title: "resume", href: "/resume.pdf" },
+  { title: "a must read", href: "https://grugbrain.dev/"},
 ]
 
 export function Links() {

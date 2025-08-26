@@ -15,7 +15,7 @@ export function Header() {
           <MapPin className="w-4 h-4" />
           Noida, India
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 mb-3">
           <Mail className="w-4 h-4" />
           arcbit.kartik@proton.me
         </div>

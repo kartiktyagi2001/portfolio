@@ -10,6 +10,12 @@ export const projectItems = [
     href: "https://podium-sand.vercel.app/",
   },
   {
+    title: "Nakshatra 🌌",
+    role: "creator and maintainer",
+    description: "A Cosmic Event Tracker that tracks Near-Earth Objects and cosmic events using real-time NASA data",
+    href: "https://ncet.vercel.app/",
+  },
+  {
     title: "CSV 2 JSON",
     role: "creator and maintainer",
     description: "A fast, intuitive client-side data converter for smooth format transformations on the fly",
