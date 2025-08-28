@@ -57,12 +57,17 @@ export const ideas = [
   {
     title: "A Magical Password Manager",
     description: "A client-side password manager that generates and retrieves secure passwords using a cipher key and website name",
-    href: ""
+    href: ""  //because not having href messes around with List type and throws err, besides it might be useful later.
   },
   {
     title: "A Web Monitoring Tool",
     description: "A comprehensive web monitoring tool that tracks uptime, TTFB, and performance metrics ensuring reliability",
-    href: "" //because not having href messes around with List type and throws err, besides it might be useful later.
+    href: ""
+  },
+  {
+    title: "An Agentic Job Application System",
+    description: "An agentic system that parses uploaded resumes to extract skills, experience and project depth, discovers matching jobs across major boards, and pre-fills tailored applications and cover letters - leaving the final submission to the user for review.",
+    href: ""
   },
   {
     title: "An AI Assistant",
