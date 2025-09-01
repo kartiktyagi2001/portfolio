@@ -75,4 +75,15 @@ export const ideas = [
     description: "Assistant that integrates with Google Calendar, Keep, and Gmail to manage schedules, notes, and emails",
     href: ""
   },
+  {
+    title: "An AI Assistant",
+    description: "Assistant that integrates with Google Calendar, Keep, and Gmail to manage schedules, notes, and emails",
+    href: ""
+  },
+  {
+    title: "A Middleware Platform",
+    description: " a middleware software platform that connects to multiple third-party APIs, cleans and unifies incoming data, then delivers it to end users in standardized formats.",
+    href: ""
+  },
 ];
+
