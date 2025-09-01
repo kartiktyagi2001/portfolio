@@ -16,6 +16,12 @@ export const projectItems = [
     href: "https://ncet.vercel.app/",
   },
   {
+    title: "idk",
+    role: "creator and maintainer",
+    description: "A magical password manager, which never stores your password. Fetch your passwords with just a cipher key.",
+    href: "https://idkpass.vercel.app/",
+  },
+  {
     title: "CSV 2 JSON",
     role: "creator and maintainer",
     description: "A fast, intuitive client-side data converter for smooth format transformations on the fly",
@@ -27,12 +33,7 @@ export const projectItems = [
     description: "A responsive AI companion app delivering versatile assistance with ultra-fast, scalable backend support.",
     href: "https://thinkyai.vercel.app/",
   },
-  {
-    title: "LoopKart",
-    role: "contributor",
-    description: "An online grocery shopping platform focused on intuitive browsing, secure checkout, and smooth user experience.",
-    href: "",
-  },
+  
 ]
 
 export const blogItems = [
@@ -54,11 +55,11 @@ export const blogItems = [
 ];
 
 export const ideas = [
-  {
-    title: "A Magical Password Manager",
-    description: "A client-side password manager that generates and retrieves secure passwords using a cipher key and website name",
-    href: ""  //because not having href messes around with List type and throws err, besides it might be useful later.
-  },
+  // {
+  //   title: "A Magical Password Manager",
+  //   description: "A client-side password manager that generates and retrieves secure passwords using a cipher key and website name",
+  //   href: ""  //because not having href messes around with List type and throws err, besides it might be useful later.
+  // },
   {
     title: "A Web Monitoring Tool",
     description: "A comprehensive web monitoring tool that tracks uptime, TTFB, and performance metrics ensuring reliability",
