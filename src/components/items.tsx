@@ -3,6 +3,13 @@
 
 export const projectItems = [
   {
+    title: "DataForge",
+    role: "creator and maintainer",
+    description:
+      "An Integration layer that lets you test your APIs, combine multiple APIs into one reliable endpoint, and get a single normalized response.",
+    href: "https://dfteam.vercel.app/",
+  },
+  {
     title: "Podium",
     role: "creator and maintainer",
     description:
@@ -10,16 +17,16 @@ export const projectItems = [
     href: "https://podium-sand.vercel.app/",
   },
   {
-    title: "Nakshatra 🌌",
-    role: "creator and maintainer",
-    description: "A Cosmic Event Tracker that tracks Near-Earth Objects and cosmic events using real-time NASA data",
-    href: "https://ncet.vercel.app/",
-  },
-  {
     title: "idk",
     role: "creator and maintainer",
     description: "A magical password manager, which never stores your password. Fetch your passwords with just a cipher key.",
     href: "https://idkpass.vercel.app/",
+  },
+  {
+    title: "Nakshatra 🌌",
+    role: "creator and maintainer",
+    description: "A Cosmic Event Tracker that tracks Near-Earth Objects and cosmic events using real-time NASA data",
+    href: "https://ncet.vercel.app/",
   },
   {
     title: "CSV 2 JSON",
@@ -75,15 +82,10 @@ export const ideas = [
     description: "Assistant that integrates with Google Calendar, Keep, and Gmail to manage schedules, notes, and emails",
     href: ""
   },
-  {
-    title: "An AI Assistant",
-    description: "Assistant that integrates with Google Calendar, Keep, and Gmail to manage schedules, notes, and emails",
-    href: ""
-  },
-  {
-    title: "A Middleware Platform",
-    description: " a middleware software platform that connects to multiple third-party APIs, cleans and unifies incoming data, then delivers it to end users in standardized formats.",
-    href: ""
-  },
+  // {
+  //   title: "A Middleware Platform",
+  //   description: " a middleware software platform that connects to multiple third-party APIs, cleans and unifies incoming data, then delivers it to end users in standardized formats.",
+  //   href: ""
+  // },
 ];
 
