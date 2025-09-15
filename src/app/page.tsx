@@ -36,7 +36,7 @@ export default function Home(){
       </section>
 
       <footer className="flex justify-center text-sm items-center p-0.5 bg-[#0c0c0c] rounded-md">
-        &copy; {new Date().getFullYear()} | Crafted by Arcbit
+        &copy; {new Date().getFullYear()} | Crafted by Kartik Tyagi
       </footer>
     </main>
   )

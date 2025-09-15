@@ -4,7 +4,7 @@
 export const projectItems = [
   {
     title: "DataForge",
-    role: "creator and maintainer",
+    role: "ongoing project",
     description:
       "An Integration layer that lets you test your APIs, combine multiple APIs into one reliable endpoint, and get a single normalized response.",
     href: "https://dfteam.vercel.app/",
