@@ -3,7 +3,7 @@
 
 export const projectItems = [
   {
-    title: "DataForge",
+    title: "Samik",
     role: "ongoing project",
     description:
       "An Integration layer that lets you test your APIs, combine multiple APIs into one reliable endpoint, and get a single normalized response.",
@@ -14,13 +14,13 @@ export const projectItems = [
     role: "creator and maintainer",
     description:
       "An open-source, secure modern publishing platform for effortless content creation and exploration.",
-    href: "https://podium-sand.vercel.app/",
+    href: "https://podium.kartiktyagi.site",
   },
   {
     title: "idk",
     role: "creator and maintainer",
     description: "A magical password manager, which never stores your password. Fetch your passwords with just a cipher key.",
-    href: "https://idkpass.vercel.app/",
+    href: "https://idkpass.kartiktyagi.site",
   },
   {
     title: "Nakshatra 🌌",
@@ -62,14 +62,14 @@ export const blogItems = [
 ];
 
 export const ideas = [
-  // {
-  //   title: "A Magical Password Manager",
-  //   description: "A client-side password manager that generates and retrieves secure passwords using a cipher key and website name",
-  //   href: ""  //because not having href messes around with List type and throws err, besides it might be useful later.
-  // },
   {
     title: "A Web Monitoring Tool",
     description: "A comprehensive web monitoring tool that tracks uptime, TTFB, and performance metrics ensuring reliability",
+    href: ""
+  },
+  {
+    title: "Readme and Git Commit Writer",
+    description: "A tool that automatically writes your commits and creates your README.md file by analyzing your codebase and changes applied to it",
     href: ""
   },
   {
