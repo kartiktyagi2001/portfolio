@@ -1,6 +1,8 @@
 "use client"
 
 import { useEffect } from "react"
+import { useRouter } from 'next/navigation'; 
+import Link from 'next/link';
 
 export function Navbar() {
   useEffect(() => {
@@ -17,6 +19,7 @@ export function Navbar() {
         case "b": targetId = "blogs"; break
         case "p": targetId = "projects"; break
         case "i": targetId = "ideas"; break
+        // case "s": targetId = "books"; break
       }
 
       if (targetId) {
@@ -27,6 +30,10 @@ export function Navbar() {
     window.addEventListener("keydown", handleKeyPress)
     return () => window.removeEventListener("keydown", handleKeyPress)
   }, [])
+
+
+
+  const router = useRouter();
 
   return (
     <nav className="flex items-center justify-between mb-12 text-sm">
@@ -55,6 +62,11 @@ export function Navbar() {
         >
           [i] ideas
         </a>
+        {/* <Link href='/books'
+            className="hover:text-purple-500 transition-colors duration-200"
+        >
+          [s] bookshelf
+        </Link> */}
       </div>
     </nav>
   )
