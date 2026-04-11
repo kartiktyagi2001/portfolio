@@ -18,7 +18,7 @@ export function Header() {
         </div>
         <div className="flex items-center gap-2 mb-3">
           <Mail className="w-4 h-4" />
-          arcbit.kartik@proton.me
+          kartiktyagi1201@outlook.com
         </div>
       </div>
 
