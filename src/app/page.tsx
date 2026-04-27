@@ -1,5 +1,5 @@
 import { Header } from "@/components/header";
-import { blogItems, ideas, projectItems } from "@/components/items";
+import { blogItems, experienceItems, ideas, projectItems } from "@/components/items";
 import { Links } from "@/components/links";
 import { List } from "@/components/list";
 import { TechStack } from "@/components/stack";
@@ -12,6 +12,10 @@ export default function Home() {
           <Header />
           <Links />
           <TechStack />
+        </section>
+
+        <section id="experience" className="mt-16">
+          <List title="Experience" items={experienceItems} />
         </section>
 
         <section id="projects" className="mt-16">

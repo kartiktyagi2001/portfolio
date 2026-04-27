@@ -16,6 +16,7 @@ export function Navbar() {
         case "h": targetId = "home"; break
         case "b": targetId = "blogs"; break
         case "p": targetId = "projects"; break
+        case "e": targetId = "experience"; break
         case "i": targetId = "ideas"; break
       }
 
@@ -33,6 +34,9 @@ export function Navbar() {
       <div className="flex space-x-6">
         <a href="#home" className="hover:text-purple-500 transition-colors duration-200">
           [h] home
+        </a>
+        <a href="#experience" className="hover:text-purple-500 transition-colors duration-200">
+          [e] experience
         </a>
         <a href="#projects" className="hover:text-purple-500 transition-colors duration-200">
           [p] projects

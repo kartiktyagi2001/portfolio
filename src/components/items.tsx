@@ -1,3 +1,18 @@
+export const experienceItems = [
+  {
+    title: "Software Engineer",
+    role: "Schnell Technocraft · Jan 2026 – Present",
+    description: "Full-stack engineer (backend-heavy) leading development on a platform digitizing government records via third-party OCR integration.",
+    href: "",
+  },
+  {
+    title: "Graduate Engineer Trainee",
+    role: "Schnell Technocraft · Oct – Dec 2025",
+    description: "Lead the development of backend for the same OCR-based government document digitization platform.",
+    href: "",
+  },
+]
+
 export const projectItems = [
   {
     title: "Samik",
