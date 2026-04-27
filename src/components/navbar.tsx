@@ -1,8 +1,6 @@
 "use client"
 
 import { useEffect } from "react"
-import { useRouter } from 'next/navigation'; 
-import Link from 'next/link';
 
 export function Navbar() {
   useEffect(() => {
@@ -18,8 +16,8 @@ export function Navbar() {
         case "h": targetId = "home"; break
         case "b": targetId = "blogs"; break
         case "p": targetId = "projects"; break
+        case "e": targetId = "experience"; break
         case "i": targetId = "ideas"; break
-        // case "s": targetId = "books"; break
       }
 
       if (targetId) {
@@ -31,42 +29,24 @@ export function Navbar() {
     return () => window.removeEventListener("keydown", handleKeyPress)
   }, [])
 
-
-
-  const router = useRouter();
-
   return (
     <nav className="flex items-center justify-between mb-12 text-sm">
       <div className="flex space-x-6">
-        <a
-          href="#home"
-          className="hover:text-purple-500 transition-colors duration-200"
-        >
+        <a href="#home" className="hover:text-purple-500 transition-colors duration-200">
           [h] home
         </a>
-        <a
-          href="#projects"
-          className="hover:text-purple-500 transition-colors duration-200"
-        >
+        <a href="#experience" className="hover:text-purple-500 transition-colors duration-200">
+          [e] experience
+        </a>
+        <a href="#projects" className="hover:text-purple-500 transition-colors duration-200">
           [p] projects
         </a>
-        <a
-          href="#blogs"
-          className="hover:text-purple-500 transition-colors duration-200"
-        >
+        <a href="#blogs" className="hover:text-purple-500 transition-colors duration-200">
           [b] blogs
         </a>
-        <a
-          href="#ideas"
-          className="hover:text-purple-500 transition-colors duration-200"
-        >
+        <a href="#ideas" className="hover:text-purple-500 transition-colors duration-200">
           [i] ideas
         </a>
-        {/* <Link href='/books'
-            className="hover:text-purple-500 transition-colors duration-200"
-        >
-          [s] bookshelf
-        </Link> */}
       </div>
     </nav>
   )

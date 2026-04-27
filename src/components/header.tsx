@@ -3,9 +3,8 @@ import { MapPin, Mail } from "lucide-react"
 
 export function Header() {
   return (
-    <header className="mb-16 space-y-">
-      <h1 className=" mb-4 animate-fade-in text-white">
-        <img src="" alt="" />
+    <header className="mb-16 space-y-4">
+      <h1 className="mb-4 animate-fade-in text-white">
         <span className="inline-block text-[2.6rem]">
           hi, i am <span className="text-purple-400 text-[3rem]"><ScrambleText fromText="Arcbit" toText="Kartik" delay={700} />!</span>
         </span>
@@ -23,17 +22,20 @@ export function Header() {
       </div>
 
       <p className="leading-relaxed animate-fade-in-up text-sm">
-        I am Kartik, a developer with a love for <span className="text-purple-300">minimalism</span> and <span className="text-purple-300">clean code.</span> I engineer sleek and efficient software. <br /><br />
-        I’m always chasing new things to learn or obsessing over some problem that makes me scratch my head.
+        I am Kartik, an engineer with a love for <span className="text-purple-300">minimalism</span> and <span className="text-purple-300">clean code.</span> I engineer modern and efficient software. <br /><br />
+        I&apos;m driven by curiosity, constantly exploring new technologies and diving deep into challenging problems that push my technical boundaries.
         <br />
         <br />
-         When not shipping, you’re likely to find me reading a compelling book, watching films, browsing accessories, or zoning out (fr).
-         <br />I’m always open to exciting <span className="text-purple-300">collaborations</span> and <span className="text-purple-300">opportunities</span>. <br /> Let’s build something functional.
+         When not shipping, you&apos;ll find me reading, watching films, or exploring new interests.
+         <br />I&apos;m always open to <span className="text-purple-300">collaborations</span> and <span className="text-purple-300">opportunities</span> to work on meaningful projects. <br /> Let&apos;s connect and build something great.
       </p>
 
-      <div>
-
-      </div>
+      <p className="text-sm text-gray-500">
+        Open to freelance projects and full-time opportunities - {" "}
+        <a href="mailto:kartiktyagi1201@outlook.com" className="text-purple-400 hover:text-purple-300 transition-colors duration-200">
+          <span className="underline underline-offset-4 decoration-purple-500"> let&apos;s talk </span>
+        </a>
+      </p>
     </header>
   )
 }

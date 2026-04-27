@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "../components/navbar"
 import { Navbar } from "../components/navbar";
 
 const geistSans = Geist({
@@ -16,7 +15,20 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Kartik Tyagi",
-  description: "Building modern web expriences",
+  description: "Full-stack developer specializing in backend-heavy web applications. Open to freelance and full-time opportunities.",
+  openGraph: {
+    title: "Kartik Tyagi",
+    description: "Full-stack developer specializing in backend-heavy web applications.",
+    url: "https://kartiktyagi.site",
+    siteName: "Kartik Tyagi",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Kartik Tyagi",
+    description: "Full-stack developer specializing in backend-heavy web applications.",
+    creator: "@arcbitbit",
+  },
 };
 
 export default function RootLayout({
@@ -26,10 +38,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-background text-foreground">
-        <div className="py-6 px-[clamp(1rem,1vw,4rem)] max-w-4xl mx-auto">
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground`}>
+        <div className="py-6 px-[clamp(1rem,4vw,4rem)] max-w-4xl mx-auto">
           <Navbar />
-          <main>{children}</main>
+          {children}
         </div>
       </body>
     </html>

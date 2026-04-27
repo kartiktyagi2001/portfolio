@@ -3,6 +3,7 @@ import Image from "next/image"
 const techStack = [
   { title: "JavaScript", logo: "/logos/javascript.svg" },
   { title: "TypeScript", logo: "/logos/typescript.svg" },
+  { title: "Python", logo: "/logos/python.svg" },
   { title: "C++", logo: "/logos/cpp.svg" },
   { title: "React", logo: "/logos/react.svg" },
   { title: "Next.js", logo: "/logos/nextjs.svg" },
@@ -10,11 +11,14 @@ const techStack = [
   { title: "Node.js", logo: "/logos/nodejs.svg" },
   { title: "Express", logo: "/logos/express.svg" },
   { title: "Hono", logo: "/logos/hono.svg" },
+  { title: "FastAPI", logo: "/logos/fastapi.svg" },
   { title: "PostgreSQL", logo: "/logos/pgsql.svg" },
   { title: "Prisma", logo: "/logos/prisma.svg" },
   { title: "MongoDB", logo: "/logos/mongodb.svg" },
   { title: "Mongoose", logo: "/logos/mongoose.svg" },
   { title: "Cloudflare", logo: "/logos/cloudflare.svg" },
+  { title: "AWS EC2", logo: "/logos/aws.svg" },
+  { title: "Playwright", logo: "/logos/playwright.svg" },
   { title: "Git", logo: "/logos/git.svg" },
   { title: "GitHub", logo: "/logos/github.svg" },
   { title: "Postman", logo: "/logos/postman.svg" },
@@ -34,9 +38,9 @@ export function TechStack() {
         Tech Stack
       </h2>
       <div className="flex flex-wrap gap-3">
-        {techStack.map((tech, index) => (
+        {techStack.map((tech) => (
           <div
-            key={index}
+            key={tech.title}
             className="flex items-center gap-2 px-3 py-1 rounded-full border border-gray-700 text-gray-300 hover:border-purple-400 hover:text-purple-500 duration-200 hover:cursor-pointer"
           >
             <Image
