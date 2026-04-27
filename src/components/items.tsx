@@ -93,7 +93,7 @@ export const ideas = [
   },
   {
     title: "An Agentic Job Application System",
-    description: "An agentic system that parses uploaded resumes to extract skills, experience and project depth, discovers matching jobs across major boards, and pre-fills tailored applications and cover letters — leaving the final submission to the user for review.",
+    description: "An agentic system that parses uploaded resumes to extract skills, experience and project depth, discovers matching jobs across major boards, and pre-fills tailored applications and cover letters, leaving the final submission to the user for review.",
     href: "",
   },
   {
