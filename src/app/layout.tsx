@@ -38,7 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-background text-foreground">
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground`}>
         <div className="py-6 px-[clamp(1rem,4vw,4rem)] max-w-4xl mx-auto">
           <Navbar />
           {children}
