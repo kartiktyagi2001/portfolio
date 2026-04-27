@@ -34,9 +34,9 @@ export function TechStack() {
         Tech Stack
       </h2>
       <div className="flex flex-wrap gap-3">
-        {techStack.map((tech, index) => (
+        {techStack.map((tech) => (
           <div
-            key={index}
+            key={tech.title}
             className="flex items-center gap-2 px-3 py-1 rounded-full border border-gray-700 text-gray-300 hover:border-purple-400 hover:text-purple-500 duration-200 hover:cursor-pointer"
           >
             <Image

@@ -4,7 +4,7 @@ const links = [
   { title: "email", href: "mailto:arcbit.kartik@proton.me" },
   { title: "linkedin", href: "https://www.linkedin.com/in/arcbit" },
   { title: "github", href: "https://github.com/kartiktyagi2001" },
-  { title: "x.com", href: "https://x.com/" },
+  { title: "x.com", href: "https://x.com/arcbitbit" },
   { title: "resume", href: "/resume.pdf" },
   { title: "a must read", href: "https://grugbrain.dev/"},
 ]
@@ -19,9 +19,9 @@ export function Links() {
         Links
       </h2>
       <div className="flex flex-wrap gap-4 text-sm">
-        {links.map((link, index) => (
+        {links.map((link) => (
           <Link
-            key={index}
+            key={link.title}
             href={link.href}
             className={`duration-200 hover:text-purple-500 ${
               link.title === "resume"
