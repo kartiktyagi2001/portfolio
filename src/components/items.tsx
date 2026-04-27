@@ -38,7 +38,7 @@ export const projectItems = [
   {
     title: "idk",
     role: "developer and maintainer",
-    description: "A stateless password manager that never persists your credentials — derives passwords deterministically from a master cipher key.",
+    description: "A stateless password manager that never persists your credentials, derives passwords deterministically from a master cipher key.",
     href: "https://idk.kartiktyagi.site",
     tech: ["TypeScript", "Next.js", "Tailwind CSS"],
   },
